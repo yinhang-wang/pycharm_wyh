@@ -1,10 +1,10 @@
 import sqlite3
 import time
-# conn = sqlite3.connect("sql_lianxi.sqlite")
-# print("Open database successfully")
-
-conn = sqlite3.connect(":memory:")
+conn = sqlite3.connect("sql_lianxi.sqlite")
 print("Open database successfully")
+
+# conn = sqlite3.connect(":memory:")
+# print("Open database successfully")
 
 cursor = conn.cursor()  # 创建cursor
 # 增加
