@@ -42,7 +42,6 @@ print("*"*30)
 # for each_row in result_many:
 #     print(each_row)
 
-
 cursor.close()  # 关闭cursor
 conn.commit()  # 提交事务
 conn.close()
